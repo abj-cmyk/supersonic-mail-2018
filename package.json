@@ -1,0 +1,13 @@
+{
+  "name": "supersonic-mail",
+  "version": "1.0.0",
+  "private": false,
+  "description": "An independent, open-source, keyboard-first email demo inspired by the focus of 2018 Superhuman.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "check": "node --check dist/app.js"
+  },
+  "engines": { "node": ">=18" }
+}
